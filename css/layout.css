@@ -22,7 +22,7 @@
 }
 
 /* tablet */
-@media screen and (min-width:760px){
+@media screen and (min-width:560px) {
     .b{
         float: left;
         width: 150px;
@@ -56,7 +56,7 @@
 }
 
 /* desktop */
-@media screen and (min-width:960px){
+@media screen and (min-width:768px) and (max-width:960px){
     .b{
         width: 200px;
         height: 600px;
