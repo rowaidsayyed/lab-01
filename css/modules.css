@@ -1,0 +1,87 @@
+header{
+    background-color: rgb(250, 6, 6);
+}
+.b{
+    background-color: rgb(250, 139, 139);
+}
+.c{
+    background-color: rgb(168, 93, 80);
+}
+.d{
+    background-color: rgb(252, 122, 122);
+}
+.e{
+    background-color: rgb(245, 89, 89);
+}
+.f{
+    background-color: rgb(212, 74, 74);
+}
+.g{
+    background-color: rgb(167, 60, 60);
+}
+.h{
+    background-color: rgb(121, 35, 35);
+}
+.i{
+    background-color: rgb(248, 41, 41);
+}
+/* tablet */
+@media screen and (min-width: 760px){
+    header{
+        background-color: rgb(6, 250, 18);
+    }
+    .b{
+        background-color: rgb(139, 250, 144);
+    }
+    .c{
+        background-color: rgb(80, 168, 102);
+    }
+    .d{
+        background-color: rgb(126, 252, 122);
+    }
+    .e{
+        background-color: rgb(89, 245, 123);
+    }
+    .f{
+        background-color: rgb(74, 212, 74);
+    }
+    .g{
+        background-color: rgb(60, 167, 65);
+    }
+    .h{
+        background-color: rgb(45, 121, 35);
+    }
+    .i{
+        background-color: rgb(41, 248, 51);
+    }
+}
+/* desktop */
+@media screen and (min-width: 960px){
+    header{
+        background-color: rgb(70, 4, 250);
+    }
+    .b{
+        background-color: rgb(169, 139, 250);
+    }
+    .c{
+        background-color: rgb(118, 85, 209);
+    }
+    .d{
+        background-color: rgb(138, 99, 247);
+    }
+    .e{
+        background-color: rgb(104, 49, 255);
+    }
+    .f{
+        background-color: rgb(86, 42, 209);
+    }
+    .g{
+        background-color: rgb(76, 35, 190);
+    }
+    .h{
+        background-color: rgb(54, 26, 131);
+    }
+    .i{
+        background-color: rgb(72, 7, 252);
+    }
+}
