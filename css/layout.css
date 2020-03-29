@@ -1,0 +1,82 @@
+.b{
+    width: 100%;
+    height: 150px;
+}
+.all{
+    width: 480px;
+    height: 100vh;
+}
+.c,.d{
+    width: 480px;
+    height: 125px;
+}
+.e,.f,.g,.h{
+    float: left;
+    width: 240px;
+    height: 250px;
+}
+.i{
+    clear: both;
+    width: 480px;
+    height: 80px;
+}
+
+/* tablet */
+@media screen and (min-width:760px){
+    .b{
+        float: left;
+        width: 150px;
+        height: 702px;
+    }
+    .all{
+        float: right;
+        width: 610px;
+        height: 100vh;
+    }
+    .c,.d{
+        float: left;
+        width: 305px;
+        height: 200px;
+    }
+    .e,.f,.g{
+        float: left;
+        width: 203px;
+        height: 250px;
+    }
+    .h{
+        clear: both;
+        width: 610px;
+        height: 100px;
+
+    }
+    .i{
+        width: 610px;
+        height: 150px;
+    }
+}
+
+/* desktop */
+@media screen and (min-width:960px){
+    .b{
+        width: 200px;
+        height: 600px;
+    }
+    .all{
+        float: right;
+        width: 760px;
+    }
+    .c,.d{
+        width: 380px;
+        height: 200px;
+    }
+    .e,.f,.g,.h{
+        clear:none;
+        width: 190px;
+        height: 250px;
+    }
+    .i{
+        clear:both;
+        width: 760px;
+        height: 150px;
+    }
+}

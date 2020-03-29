@@ -1,0 +1,41 @@
+/* mobile */
+body{
+    width: 480px;
+    text-align: center;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+    height: 75px;
+}
+main{
+    width: 100%;
+    margin:0px auto;
+    height: 100vh;
+}
+nav,p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px;
+}
+
+/* tablet */
+@media screen and (min-width:760px){
+    body{
+        width: 760px;
+    }
+    header{
+        height: 100px;
+    }
+}
+
+/* desktop */
+@media screen and (min-width:960px){
+    body{
+        width: 960px;
+    }
+    header{
+        height: 100px;
+    }
+}
